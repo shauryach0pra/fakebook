@@ -16,7 +16,7 @@ export const metadata: Metadata = {
   title: "Fakebook",
   description: "Phishing awareness simulator",
   icons: {
-    icon: "/favicon.svg",
+    icon: "/favicon.png",
   },
 };
 
