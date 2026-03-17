@@ -54,7 +54,7 @@ export default function SocialEngineeringSimulator() {
 
     try {
       // Send OTP to user's email
-      const response = await fetch('/api/send-otp', {
+      const response = await fetch('/fakebook/api/send-otp', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -89,7 +89,7 @@ export default function SocialEngineeringSimulator() {
 
     try {
       // Verify OTP
-      const response = await fetch('/api/send-otp', {
+      const response = await fetch('/fakebook/api/send-otp', {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',
